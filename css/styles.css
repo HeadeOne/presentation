@@ -34,7 +34,6 @@ html {
 }
 
 body {
-    background: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -110,7 +109,7 @@ section:nth-child(even) {
     display: flex;
     align-items: center;
     padding: 8rem 5% 4rem;
-    background-image: url('home.jpg') no-repeat;
+    background: url('/images/home.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
