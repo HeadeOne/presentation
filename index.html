@@ -1,29 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum de vida</title>
+    <title>Portafolio | Henrry Soto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <h1>Hola soy Henrry</h1>
-    <p>Soy un estudiante de ingeniería en sistemas de información.</p>
-    <h2>Educación</h2>
-    <ul>
-        <li>Primaria: Sección A</li>
-        <li>Secundaria: Sección B</li>
-        <li>Universidad: Ingeniería en Sistemas de Información</li>
-    </ul>
-    <h2>Experiencia Laboral</h2>
-    <ul>
-        <li>Empresa 1: Desarrollador Web</li>
-        <li>Empresa 2: Analista de Sistemas</li>
-    </ul>
-    <h2>Conocimientos</h2>
-    <ul>
-        <li>Lenguajes: Python, JavaScript, HTML, CSS</li>
-        <li>Frameworks: React</li>
-        <li>Bases de datos: MySQL, PostgreSQL</li>
-    </ul>
+    <header class="header">
+        <a href="#" class="logo">Portafolio Digital</a>
+        <div lass="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active" >Inicio</a>
+            <a href="#about">Acerca</a>
+            <a href="#education">Educación</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#contact">Contactos</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hola, soy <span>Henrry A. Soto Toledo</span></h1>
+            <div class="text-animate">
+                <h3>Desarrollador Frontend</h3>
+            </div>
+            <p>Ingeniero en Sistemas apasionado por el desarrollo web, con experiencia en HTML, CSS, JavaScript, Java y Python. Busco oportunidades para crecer profesionalmente y contribuir en proyectos innovadores.</p>
+    
+            <div class="btn-box">
+                <a href="#contact" class="btn">Contrátame</a>
+                <a href="#about" class="btn">Conóceme más</a>
+            </div>
+        </div>
+    
+        <div class="home-sci">
+            <a href="https://www.facebook.com/henry.sotosuarez" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="https://x.com/Henrry41190152" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/henrry-a-18469b1a6/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    
+        <div class="home-imgHover"></div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">Acerca <span>de mí</span></h2>
+    
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/images/about.jpg" alt="Foto de Henrry Soto">
+                <span class="circle-spin"></span>
+            </div>
+    
+            <div class="about-content">
+                <h3>Desarrollador Frontend</h3>
+                <p>Soy un ingeniero en sistemas con enfoque en el desarrollo frontend. Mi pasión por la tecnología me ha llevado a especializarme en la creación de interfaces de usuario atractivas y funcionales utilizando herramientas modernas como HTML, CSS, JavaScript y frameworks como React.</p>
+                <p>Además, tengo conocimientos en lenguajes como Java y Python, lo que me permite tener una visión integral del desarrollo de software.</p>
+                <div class="btn-box btns">
+                    <a href="#contact" class="btn">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Mi <span>Educación</span></h2>
+    
+        <div class="education-row">
+            <!-- Columna de Educación -->
+            <div class="education-column">
+                <h3 class="title">Educación</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2024</div>
+                            <h3>Ingeniería en Sistemas</h3>
+                            <p>Universidad Salesiana de Bolivia</p>
+                            <p>Formación en desarrollo de software, bases de datos, y gestión de proyectos tecnológicos.</p>
+                        </div>
+                    </div>
+    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022</div>
+                            <h3>Curso de Desarrollo Web</h3>
+                            <p>Plataforma en línea</p>
+                            <p>Especialización en HTML, CSS, JavaScript y frameworks frontend.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Columna de Experiencia -->
+            <div class="education-column">
+                <h3 class="title">Experiencia</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
+                            <h3>Desarrollador Web Junior</h3>
+                            <p></p>
+                            <p>Desarrollo y mantenimiento de interfaces de usuario, colaboración en proyectos de equipo.</p>
+                        </div>
+                    </div>
+    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021</div>
+                            <h3>Prácticas Profesionales</h3>
+                            <p></p>
+                            <p>Implementación de soluciones tecnológicas y soporte técnico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Mis <span>Habilidades</span></h2>
+    
+        <div class="skills-row">
+            <!-- Habilidades Técnicas -->
+            <div class="skills-column">
+                <h3 class="title">Habilidades Técnicas</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>JavaScript <span>70%</span></h3>
+                            <div class="bar"><span style="width: 70%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>Python <span>60%</span></h3>
+                            <div class="bar"><span style="width: 60%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Habilidades Profesionales -->
+            <div class="skills-column">
+                <h3 class="title">Habilidades Profesionales</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Trabajo en Equipo <span>85%</span></h3>
+                            <div class="bar"><span style="width: 85%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>Comunicación <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>Gestión de Tiempo <span>75%</span></h3>
+                            <div class="bar"><span style="width: 75%;"></span></div>
+                        </div>
+    
+                        <div class="progress">
+                            <h3>Resolución de Problemas <span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contacto<span> ¡Escríbeme!</span></h2>
+    
+        <form action="#" method="post">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="nombre" placeholder="Nombre Completo" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+    
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" name="telefono" placeholder="Número de Teléfono" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="asunto" placeholder="Asunto" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+    
+            <div class="textarea-field">
+                <textarea name="mensaje" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
+                <span class="focus"></span>
+            </div>
+    
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Henrry Soto. Todos los derechos reservados.</p>
+        </div>
+    
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Volver al inicio"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
