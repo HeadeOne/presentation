@@ -34,7 +34,7 @@ html {
 }
 
 body {
-    background: var(--color-fondo);
+    background: var(--color-primario);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -164,7 +164,7 @@ p {
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px var(--main-color);
+    /* -webkit-text-stroke: .7px var(--main-color);*/
 }
 
 .home-content p {
@@ -814,10 +814,10 @@ span {
     animation: fillBar 1.5s ease-out forwards;
 }
 
-@keyframes fillBar {
+/*@keyframes fillBar {
     from { width: 0; }
     to { width: attr(data-width); }
-}
+}*/
 
 .bar span::after {
     content: '';
