@@ -34,7 +34,7 @@ html {
 }
 
 body {
-    background: var(--bg-color)
+    background: var(--color-fondo);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -185,7 +185,7 @@ p {
     width: 34.5rem;
     height: 5rem;
     margin-top: 2rem;
-    gap: 1 rem;
+    gap: 1rem;
 }
 
 .btn-box .btn {
@@ -382,7 +382,6 @@ span {
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 2rem 3 3rem;
 }
 
 .btn-box.btns {
@@ -611,7 +610,6 @@ span {
 
 .contact form .input-box {
     position: relative;
-    position: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -826,7 +824,7 @@ span {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: attr(data-width);
     height: 100%;
     background: rgba(255, 255, 255, 0.3);
     animation: shine 1.5s infinite;
